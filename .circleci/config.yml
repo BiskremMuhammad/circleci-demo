@@ -20,9 +20,9 @@ jobs:
           command: |
             sudo apt-get install curl
             curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-            apt-get install nodejs
+            sudo apt-get install nodejs
             node -v
-            npm i -g yarn
+            sudo npm i -g yarn
             yarn
             export NODE_ENV=development
             yarn start
