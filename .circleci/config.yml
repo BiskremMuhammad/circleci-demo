@@ -25,7 +25,6 @@ jobs:
             sudo npm i -g yarn
             yarn
             export NODE_ENV=development
-            yarn start
             echo "hello $SAY_MY_NAME"
 
 # Invoke jobs via workflows
