@@ -1,0 +1,23 @@
+{
+  "name": "circleci-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiskremMuhammad/circleci-demo.git"
+  },
+  "author": "Biskrem Muhammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BiskremMuhammad/circleci-demo/issues"
+  },
+  "homepage": "https://github.com/BiskremMuhammad/circleci-demo#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
